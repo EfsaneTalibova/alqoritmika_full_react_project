@@ -1,0 +1,71 @@
+img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+ul{
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+    list-style: none;
+    justify-content: space-around;
+}
+li{
+    padding: 10px 15px;
+    border:1px solid orange;
+    color: orangered;
+    font-size: 25px;
+    cursor: pointer;
+}
+div{
+    width: 75%;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.active{
+    display: block;
+    background-color: orangered;
+    color: white;
+}
+
+body{
+    background-color: teal;
+}
+
+/* h1{
+    width: 20px;
+    height: 20px;
+    border: 3px solid black;
+    border-radius: 50%;
+    border-left-color: transparent;
+    animation-name: spinner;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes spinner {
+    to{
+        transform: rotate(360deg);
+    }
+} */
+
+/* :root{
+    --size : 40px;
+    --colored : orange;
+    
+}
+h1{
+    font-size: var(--size);
+    color: var(--colored);
+    -moz-animation: ;
+    -o-animation: ;
+    -ms-behavior: ;
+    -webkit-animation: ;
+    
+}
+h2{
+    font-size: var(--size);
+    color: var(--colored);
+} */
